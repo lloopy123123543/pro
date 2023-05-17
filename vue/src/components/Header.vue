@@ -1,5 +1,5 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+
 
 
 import {ref} from 'vue'
@@ -15,7 +15,7 @@ function show_burger(){
 </script>
 
 <template>
-  <div>
+    <div>
 <nav class="border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="#" class="flex items-center">
@@ -51,7 +51,8 @@ function show_burger(){
 <HelloWorld />
 
   </div>
-  
 </template>
 
-<style scoped></style>
+<style scoped>
+
+</style>
